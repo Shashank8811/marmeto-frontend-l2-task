@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coding assesment -L2(front-end)</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <img class="img" src="assests/img1.jpeg" alt="" />
+        <div class="imgs">
+          <img src="assests/img2.jpeg" alt="" class="i" />
+          <img src="assests/img3.jpeg" alt="" class="i" />
+          <img src="assests/img4.jpeg" alt="" class="i" />
+          <img src="assests/img5.jpeg" alt="" class="i" />
+        </div>
+      </div>
+      <div class="info">
+        <div class="inf1">
+          <div class="mm" id="vendor"></div>
+          <div class="eb" id="title"></div>
+        </div>
+        <div class="inf2 of2">
+          <div class="prz">
+            <div class="pr" id="price"></div>
+            <span class="cp"><strike>$1999</strike></span>
+          </div>
+
+          <div class="offer"><div class="off">35% off</div></div>
+        </div>
+        <div class="inf3">
+          <div class="cc">choose a color</div>
+          <div class="color">
+            <div class="bx">
+              <ion-icon class="icon" name="checkmark-outline"></ion-icon>
+            </div>
+            <div class="bx1"></div>
+            <div class="bx2"></div>
+            <div class="bx3"></div>
+          </div>
+        </div>
+        <div class="inf4">
+          <div class="cc">Choose a size</div>
+          <div class="btns">
+            <button class="btn">
+              <input class="radio" type="radio" name="" id="" />Small
+            </button>
+            <button class="btn">
+              <input class="radio" type="radio" name="" id="" />Medium
+            </button>
+            <button class="btn">
+              <input class="radio" type="radio" name="" id="" />Large
+            </button>
+            <button class="btn">
+              <input class="radio" type="radio" name="" id="" />Extra Large
+            </button>
+            <button class="btn">
+              <input class="radio" type="radio" name="" id="" />XXL
+            </button>
+          </div>
+        </div>
+        <div class="inf5">
+          <div class="cbtn">
+            <button class="btn minus">-</button>
+            <button class="btn no">1</button>
+            <button class="btn plus">+</button>
+            <div class="atc">
+              <button class="btn add" id="addto" onclick="handleClick()">
+                <ion-icon name="cart-outline"></ion-icon>Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="dismess" id="message"></div>
+        </div>
+        <div class="inf6">
+          <p class="last-info" id="description"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
